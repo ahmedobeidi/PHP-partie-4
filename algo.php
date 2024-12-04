@@ -27,3 +27,11 @@ function compare(int $number1, int $number2) {
 
 echo compare(1, 10);
 */
+
+/* Exercise 5 
+function concatenate(int $number1, string $text) {
+    return "{$number1}{$text}";
+}
+
+echo concatenate(10, "Hello");
+*/

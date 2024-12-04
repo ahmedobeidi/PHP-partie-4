@@ -54,4 +54,13 @@ function checkGenderAndAge(int $age, string $gender) {
         else return "Vous êtes une femme et vous êtes mineur";
     }
 }
+echo checkGenderAndAge(17, "Femme");
+*/
+
+/* Exercise 8 
+function calculateSum(int $number1 = 0, int $number2 = 0) {
+    return $number1 + $number2;
+}
+
+echo calculateSum();
 */

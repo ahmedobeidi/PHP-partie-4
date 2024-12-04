@@ -42,3 +42,16 @@ function welcomeMessage(string $nom, string $prenom, int $age) {
 }
 echo welcomeMessage("AL-OBEIDI", "Ahmed", 29);
 */
+
+/* Exercise 7 
+function checkGenderAndAge(int $age, string $gender) {
+    if ($gender === "Homme") {
+        if ($age >= 18) return "Vous êtes un homme et vous êtes majeur";
+        else return "Vous êtes un homme et vous êtes mineur";
+    }
+    else if ($gender === "Femme") {
+        if ($age >= 18) return "Vous êtes une femme et vous êtes majeur";
+        else return "Vous êtes une femme et vous êtes mineur";
+    }
+}
+*/

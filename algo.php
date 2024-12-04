@@ -35,3 +35,10 @@ function concatenate(int $number1, string $text) {
 
 echo concatenate(10, "Hello");
 */
+
+/* Exercise 6 
+function welcomeMessage(string $nom, string $prenom, int $age) {
+    return "Bonjour {$nom} {$prenom}, tu as {$age} ans.";
+}
+echo welcomeMessage("AL-OBEIDI", "Ahmed", 29);
+*/

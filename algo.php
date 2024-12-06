@@ -37,8 +37,8 @@ echo concatenate(10, "Hello");
 */
 
 /* Exercise 6 
-function welcomeMessage(string $nom, string $prenom, int $age) {
-    return "Bonjour {$nom} {$prenom}, tu as {$age} ans.";
+function welcomeMessage(string $lastname, string $firstname, int $age) {
+    return "Bonjour {$lastname} {$firstname}, tu as {$age} ans.";
 }
 echo welcomeMessage("AL-OBEIDI", "Ahmed", 29);
 */
